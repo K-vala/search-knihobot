@@ -5,7 +5,7 @@
   "version": "1.0",
 
   "description": "Search for name or author of selected book on databazeknih.cz",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
+  "homepage_url": "https://github.com/K-vala/search-knihobot",
   "icons": {
     "48": "icons/bot-48.png"
   },
