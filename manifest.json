@@ -1,0 +1,23 @@
+{
+
+  "manifest_version": 2,
+  "name": "Search Knihobot",
+  "version": "1.0",
+
+  "description": "Search for name or author of selected book on databazeknih.cz",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
+  "icons": {
+    "48": "icons/bot-48.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/bot-32.png",
+    "default_title": "Search Knihobot",
+    "default_popup": "popup/bookSearch.html"
+  }
+}
+
