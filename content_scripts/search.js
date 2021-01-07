@@ -17,11 +17,11 @@
     const rootElement = document.documentElement;
     const body = rootElement.childNodes[2];
     var innerText = body.children[4].innerText;
-      //console.log(innerText);
-      if (message.searchTerm === "author") {
+    if (message.searchTerm === "author") {
       var authorName = innerText.substr(innerText.indexOf("Autor")+7,innerText.substr(innerText.indexOf("Autor")+7,innerText.length).indexOf("\n"));
+      authorName = authorName.substr(authorName.indexOf(",")+2, authorName.length)+" "+authorName.substr(0, authorName.indexOf(","));
       window.open("https://www.databazeknih.cz/search?q="+authorName+"&in=authors", "_blank");
-      } else {
+    } else {
       var bookName = innerText.substr(innerText.indexOf("Název")+7,innerText.substr(innerText.indexOf("Název")+7,innerText.length).indexOf("\n"));
       window.open("https://www.databazeknih.cz/search?q="+bookName, "_blank");
     }
