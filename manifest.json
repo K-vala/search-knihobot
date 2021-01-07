@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Search Knihobot",
-  "version": "1.0",
+  "version": "1.1",
 
   "description": "Search for name or author of selected book on databazeknih.cz",
   "homepage_url": "https://github.com/K-vala/search-knihobot",
@@ -19,5 +19,6 @@
     "default_title": "Search Knihobot",
     "default_popup": "popup/bookSearch.html"
   }
+ 
 }
 
