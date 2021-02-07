@@ -16,7 +16,7 @@
 
     const rootElement = document.documentElement;
     const body = rootElement.childNodes[2];
-    var innerText = body.children[4].innerText;
+    var innerText = body.children[3].innerText;
     if (message.searchTerm === "author") {
       var authorName = innerText.substr(innerText.indexOf("Autor")+7,innerText.substr(innerText.indexOf("Autor")+7,innerText.length).indexOf("\n"));
       if (authorName.indexOf(",") > -1 ) {
